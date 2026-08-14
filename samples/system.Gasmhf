@@ -1,0 +1,5 @@
+program(SystemHeader);
+
+proc Sys_Log {
+    mov eax, 1;
+}

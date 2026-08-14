@@ -1,0 +1,7 @@
+(executable
+ (name main)
+ (public_name gasm)
+ (modules ast lexer parser main)
+ (foreign_stubs
+  (language c)
+  (names codegen)))

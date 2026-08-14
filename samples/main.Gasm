@@ -1,0 +1,13 @@
+program(MainApp);
+
+include("system.Gasmhf");
+
+var counter: int32 = 0;
+
+start, {
+    mov eax, 100;
+    mov ebx, 50;
+    add eax, ebx;
+    mov [counter], eax;
+    invoke Sys_Log, eax;
+}
